@@ -8,7 +8,7 @@ scheduler.addTask("D", ["B", "C"]);
 scheduler.addTask("E", ["D"]);
 
 // Adding a task with a circular dependency (uncomment to test)
-scheduler.addTask("F", ["F"]);
+// scheduler.addTask("F", ["F"]);
 
 const scheduledTasks = scheduler.scheduleTasks();
 console.log("Scheduled Tasks:", scheduledTasks);
