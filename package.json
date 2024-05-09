@@ -1,0 +1,24 @@
+{
+  "name": "peakai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmrGablla/peakAI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmrGablla/peakAI/issues"
+  },
+  "homepage": "https://github.com/AmrGablla/peakAI#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
